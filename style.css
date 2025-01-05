@@ -1,28 +1,93 @@
 * {
-  font-family: "Times New Roman", serif;
-  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 1.1rem;
+  font-family: "Times New Roman", serif;
+  line-height: 1.5;
 }
 
-body {
-  background-color: rgb(212, 170, 170);
+.index-body {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.articles {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.article {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  padding: 20px 20px;
+  width: 250px;
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.artichoke-link {
+  background-color: rgb(195, 255, 195);
+  margin-right: 10px;
+}
+
+.meatballs-link {
+  background-color: rgb(255, 195, 195);
+  margin-right: 10px;
+}
+
+.brownies-link {
+  background-color: rgb(180, 139, 139);
+}
+
+.artichoke-link:hover {
+  background-color: rgb(95, 255, 95);
+}
+
+.meatballs-link:hover {
+  background-color: rgb(255, 95, 95);
+}
+
+.brownies-link:hover {
+  background-color: rgb(180, 95, 95);
 }
 
 .artichoke {
-  background-color: rgb(156, 214, 156);
+  background-color: rgb(190, 255, 190);
   color: #202020;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.meatballs {
+  background-color: rgb(255, 170, 170);
+  color: #202020;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .brownies {
   background-color: rgb(110, 92, 92);
   color: #dad3d3;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .main-heading {
   text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 img {
@@ -30,4 +95,41 @@ img {
   margin: 0 auto;
   width: 500px;
   height: auto;
+  margin-bottom: 10px;
+}
+
+.about {
+  margin-bottom: 30px;
+}
+
+.sub-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ingredients {
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+li ul {
+  margin-left: 36px;
+}
+
+.sub-heading {
+  font-size: 24px;
+}
+
+.directions {
+  margin-left: 18px;
+  margin-top: 10px;
 }
